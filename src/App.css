@@ -1,0 +1,85 @@
+.App {
+  height: 100vh;
+  background-color: #0d1316;
+  overflow: scroll;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to left top, #d41b1b, #030000);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header-container {
+  padding-top: 30px;
+  background: white;
+  min-height: 70vh;
+  width: 60%;
+  background: linear-gradient( to right bottom, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.2));
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  z-index: 9;
+  backdrop-filter: blur(2rem);
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.065), 0 2px 2px hsl(0deg 0% 0% / 0.065), 0 4px 4px hsl(0deg 0% 0% / 0.065), 0 8px 8px hsl(0deg 0% 0% / 0.065), 0 16px 16px hsl(0deg 0% 0% / 0.065);
+}
+
+
+.header {
+  margin: 0 0 15px 0;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 25px;
+  color: #000000;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(left, #ad0808 30%, #020701 60%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta-button {
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.connect-wallet-button {
+  background: -webkit-linear-gradient(left, #ad0808 30%, #020701);
+  background-size: 200% 200%;
+}
+
+.opensea-button {
+  padding: 13px;
+  background: transparent;
+  border: 2px solid rgb(201, 47, 8);
+  border-radius: 15px;
+  text-decoration: none;
+  color: rgb(1, 7, 14);
+}
+
+.opensea-logo {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  top: 5px;
+  right: 2px;
+}
